@@ -3,7 +3,7 @@
        <div class="row">
             <div class="col-12">
                 <div class="col-10 offset-1 col-md-4 mt-5 pt-5">
-                    <img src="img/logowhite.png" class="img-fluid mt-5" alt="">
+                    <CommonsUmineImg url="img/logowhite.png" className="img-fluid mt-5" alt="" />
                     <p class="text-white float-end">{{ $t('hojadevida') }}</p>
                 </div>
                 <div class="col-10 offset-1 col-md-4 mt-5 text-center">

@@ -17,5 +17,8 @@ export default {
     define: {
       "process.env.DEBUG": false,
     },
+    transformAssetUrls: {
+        includeAbsolute: false,
+    },
   },
 };

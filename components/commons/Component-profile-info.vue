@@ -1,8 +1,8 @@
 <template>
-    <div class="pt-3 pb-5 pl-5">
-       <div class="row container-fluid">
+    <div class="pt-3 pb-5">
+       <div class="row container">
             <div class="col-6 offset-3 d-flex justify-content-center">
-                <img src="https://elireview.com/wp-content/uploads/2016/12/reed-profile-square.jpg" class="img-fluid rounded" alt="">
+                <CommonsUmineImg url="https://elireview.com/wp-content/uploads/2016/12/reed-profile-square.jpg" className="img-fluid rounded" alt="" />
             </div>
             <div class="col-12 text-center mt-4">
                 <h3>{{ profileData.first_name + ' ' + profileData.last_name }}</h3>

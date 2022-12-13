@@ -1,16 +1,10 @@
 <template>
-    
-    <img 
-        :src="url" 
-        :alt="alt" 
-        :class="className"
-        :style="style"
-    >
-
+    <div>
+        <img :src="url" :alt="alt" :class="className" :style="style">
+    </div>
 </template>
 
 <script>
-
     export default {
         props: {
             url: String,

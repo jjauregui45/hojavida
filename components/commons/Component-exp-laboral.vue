@@ -10,13 +10,13 @@
                 </div>
 
                 <div class="col-12 mb-5" v-for="position in exp.positions" :key="position.id">
-                    <h5 class="text-umine-primary">{{ position.position }} / {{ position.industry }}</h5>
+                    <h5 class="text-umine-secondary">{{ position.position }} / {{ position.industry }}</h5>
                     <p class="mb-1"> <b class="text-umine-primary">{{ $t('date_init') }}</b>: {{ position.position_init }}</p>
                     <p> <b class="text-umine-primary">{{ $t('date_end') }}</b>: {{ position.position_end }}</p>
                     <p> {{ position.description }} </p>
                     <div class="row" v-if="(position.functions != undefined && position.functions.length > 0)">
                         <div class="col-12">
-                            <h5 class="text-umine-primary">{{ $t('functions') }}:</h5>
+                            <h5 class="text-umine-secondary">{{ $t('functions') }}:</h5>
                             <ul class="list-unstyled">
                                 <li class="listDecorationBefore" v-for="functions in position.functions" :key="functions.id"> {{ functions.description }}</li>
                             </ul>

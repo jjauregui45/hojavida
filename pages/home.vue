@@ -5,7 +5,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <NuxtLink to="/hojas" class="float-end pt-4 pb-2 text-decoration-none text-umine-secondary">{{ $t('MisHojasDeVida') }}</NuxtLink>
+                    <NuxtLink to="/sheetslifes" class="float-end pt-4 pb-2 text-decoration-none text-umine-secondary">{{ $t('MisHojasDeVida') }}</NuxtLink>
                 </div>
                 <div class="col-12">
                     <hr>

@@ -3,6 +3,7 @@
     --secondary-color: #585F9E;
     --tertiary-color: #1AAEDF;
     --gray-color: #F7F7FA;
+    --gray-color-text: #BABECF;
 }
 
 .bg-umine{
@@ -42,6 +43,10 @@
 }
 .text-umine-primary{
     color: var(--primary-color)!important;
+}
+
+.text-umine-gray{
+    color: var(--gray-color-text)!important;
 }
 
 .btn-secondary{

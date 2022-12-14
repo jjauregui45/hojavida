@@ -38,45 +38,43 @@
 
 
 <script>
-
-export default {
-    data() {
-        return {
-            profileData: {
-                first_name:'Karina Andrea',
-                last_name: 'Kariman',
-                profesion: 'Contador auditor',
-                birthday_date: '13/08/1987',
-                dni: '19.017.728-9',
-                address: 'Santiago, Chile',
-                email: 'k.kariman@uminetest.com',
-                phone: '+569 77842252',
-                about: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae incidunt eum optio animi inventore quis dolorem totam illum quas vel!'
-            },
-            socialNetworks: [
-                {
-                    name: 'Facebook',
-                    link:'http://algo.com',
-                    icon:'fb_logo.png',
+    export default {
+        data() {
+            return {
+                profileData: {
+                    first_name:'Karina Andrea',
+                    last_name: 'Kariman',
+                    profesion: 'Contador auditor',
+                    birthday_date: '13/08/1987',
+                    dni: '19.017.728-9',
+                    address: 'Santiago, Chile',
+                    email: 'k.kariman@uminetest.com',
+                    phone: '+569 77842252',
+                    about: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae incidunt eum optio animi inventore quis dolorem totam illum quas vel!'
                 },
-                {
-                    name: 'Instagram',
-                    link:'http://algo.com',
-                    icon:'ig_logo.png',
-                },
-                {
-                    name: 'Twitter',
-                    link:'http://algo.com',
-                    icon:'tw_logo.png',
-                }
-            ]
-        }
-    },
-    methods:{
-        LogInAction(){
-            window.location = '/home';
+                socialNetworks: [
+                    {
+                        name: 'Facebook',
+                        link:'http://algo.com',
+                        icon:'fb_logo.png',
+                    },
+                    {
+                        name: 'Instagram',
+                        link:'http://algo.com',
+                        icon:'ig_logo.png',
+                    },
+                    {
+                        name: 'Twitter',
+                        link:'http://algo.com',
+                        icon:'tw_logo.png',
+                    }
+                ]
+            }
+        },
+        methods:{
+            LogInAction(){
+                window.location = '/home';
+            }
         }
     }
-}
-
 </script>
